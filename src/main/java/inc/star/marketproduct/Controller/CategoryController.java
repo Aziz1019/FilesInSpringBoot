@@ -28,8 +28,8 @@ public class CategoryController {
         return categoryService.getById(id);
     }
 
-    @GetMapping("{id}")
-    public ResMessage deleteById(@PathVariable int id){
+    @DeleteMapping("{id}")
+    public ResMessage deleteCategory(@PathVariable int id){
         return categoryService.getById(id);
     }
 
